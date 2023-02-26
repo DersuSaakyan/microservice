@@ -11,6 +11,6 @@ public class FraudClient {
     private final RestTemplate restTemplate;
 
     public Boolean isFraudster(Long customerId) {
-        return restTemplate.getForObject("http://localhost:8082/api/v1/fraud-check/" + customerId, Boolean.class);
+        return restTemplate.getForObject("http://FRAUD:8082/api/v1/fraud-check/" + customerId, Boolean.class);
     }
 }
