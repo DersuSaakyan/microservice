@@ -9,6 +9,7 @@
         <module name="customerr" />
         <module name="eureka-server" />
         <module name="fraud" />
+        <module name="notification-service" />
         <module name="customer" />
       </profile>
     </annotationProcessing>
